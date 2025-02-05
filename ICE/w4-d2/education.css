@@ -1,0 +1,63 @@
+
+body {
+    display: flex;  
+    justify-content: center; 
+    align-items: center;  
+    background-color: rgb(92, 161, 215);
+    text-align: center;
+}
+
+.container {
+    width: 450px;
+
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    
+}
+
+h1:hover {
+    color: black
+}
+
+.caption p {
+    text-align: center;
+    color: white;
+}
+
+.caption h4 {
+    text-align: center;
+    color: white;
+}
+
+ol {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: left;
+}
+
+li {
+    padding: 5px;
+}
+
+img {
+    width: 150px;
+    height: auto;
+}
+
+.quote p {
+    font-size: 50px;
+    color: white;
+}
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 50%;
+    margin: 0;
+}
