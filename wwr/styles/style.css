@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Ledger&family=Lato:ital,wght@0,400;0,700;1,400&display=swap");
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -6,9 +8,14 @@ nav a {
     text-align: center;
     color:#134266;
     text-decoration: none;
+    padding-left: 35px;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
+}
+h1, h4 {
+    font-family: Ledger, Georgia, Garamond;
+    color:#134266;
 }
 .button-box {
     text-align: center;
@@ -20,7 +27,6 @@ main section {
     background-color: white;
     height: 725px;
 }
-body
 header {
   background-color: #78C5D7;
 }
@@ -32,6 +38,10 @@ nav a:hover {
     background-color: #134266;
     color: white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #F2D272;
@@ -39,20 +49,28 @@ nav a:hover {
 }
 .msg {
     background-color: #134266;
+    font-size: .8em;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer{
     background-color:  #134266;
     color: white;
 }
 
-.home-title h4{
+.home-title {
     color: #134266;
+    font-family: Ledger, Georgia, Garamond;
+    font-size: 2em;
+    margin-top: 10px;
 }
 .msg h2 {
     color:white;
+    font-family: Ledger, Georgia, Garamond;
 }
 .msg p {
     color: white;
+    padding-bottom: 15px;
 }
 
 footer a {
@@ -65,10 +83,54 @@ footer a:hover {
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 footer p {
     font-size: 1.2em;
 }
 footer p a:hover {
     text-decoration: underline;
+}
+p {
+    font-family: Lato, Verdana, Tahoma;
+    font-size: 22px
+}
+body {
+    background-color: whitesmoke;
+    font-family: Lato, Verdana, Tahoma;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
+}
+#logo_link {
+    padding-top: 5px;
+}
+footer {
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #134266
+}
+main section img {
+    box-sizing: border-box;
+}
+.logo {width: 80px;}
+#hero-box {
+    width: 100%;
+    overflow: hidden
+}
+#hero-img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
