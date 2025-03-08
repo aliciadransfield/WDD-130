@@ -1,0 +1,17 @@
+body {
+    background-color: black;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#content {
+    grid-template-columns: 2/3;
+    background: white;
+    border-radius: 15px;
+    justify-content: center;
+    overflow: hidden;
+}
+main {
+    align-items: center;
+    text-align: center;
+}
