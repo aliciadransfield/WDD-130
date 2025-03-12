@@ -198,6 +198,60 @@ main section img {
     opacity:.6;
     transform: scale(1.1)
 }
+#content{
+    align-items: center;
+    text-align: center;
+}
+.rivers-content {
+    display: grid;
+    gap: 20px;
+    margin-top: 40px;
+    align-items: center;
+}
+.rivers-content img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px;
+}
+#salmon-river{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#salmon-river img{
+    grid-column:  1/2;
+    grid-row: 1/2;
+}
+
+#salmon-river .msg{
+    grid-column: 2/4;
+    grid-row: 1/2;
+    background:#9adae8;
+}
+
+#desolation-canyon{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#desolation-canyon img{
+    grid-column: 3/4;
+}
+#desolation-canyon h2, 
+#desolation-canyon p{
+    grid-column: 1/3;
+    background:#F2D272
+}
+#grand-canyon{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#grand-canyon img{
+    grid-column: 1/2;
+}
+#grand-canyon h2, 
+#grand-canyon p{
+    grid-column: 2/4;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
