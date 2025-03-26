@@ -25,10 +25,10 @@ Fonts are separated by a | */
   --paragraph-color-on-white: #3B3B3B; /* paragraph text on a white background */
   --paragraph-color-on-color: #fcf3e3; /* paragraph text on a colored background */
   --paragraph-background-color: #e3506b;
-  --nav-link-color: #3B3B3B;
-  --nav-background-color: #c0e0bb;
-  --nav-hover-link-color: #fcf3e3;
-  --nav-hover-background-color: #e3506b;
+  --nav-link-color: #fcf3e3;
+  --nav-background-color:  #e3506b;
+  --nav-hover-link-color: #3B3B3B;
+  --nav-hover-background-color: #c0e0bb;
   /* TODO: Week07 - test out your colors using by viewing your html and interacting with it.
    * - Make sure the contrast is enough that things can be easily read (i.e. https://coolors.co/contrast-checker/)
    */
@@ -185,8 +185,3 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
-
-
-
-   
-
